@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 100%;
+}
+
+nav {
+    position: relative;
+	bottom: 90px;
+	left: 500px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: nav;
+}
+
+.navBackground {
+	background-color: rgb(56, 85, 182);
+	position: sticky;
+	top: 0px;
+    height: 135px;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    font-size: 32px;
+    width: 20%;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+@media only screen and (min-width: 1240px){
+    section {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1239px){
+    h2 {
+        font-size: 20px;
+    }
+}

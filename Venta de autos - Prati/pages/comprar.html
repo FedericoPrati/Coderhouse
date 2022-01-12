@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar</title>
+    <link rel="shortcuti icon" href="../img/nissan-logo.png">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header class="navBackground">
+        <h1><img src="../img/nissan-logo.png" width="130px" height="auto" alt="NISSAN"></h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./comprar.html">COMPRAR</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>
+        <article>
+            <form action="#">
+                <label for="email"> Email:
+                    <input type="email" placeholder="ejemplo@ejemplo.com" name="email"><br>
+                </label>
+                <label for="phone"> Teléfono:
+                    <input type="numbers" placeholder="+1-234-5678"><br>
+                </label>
+                <div><p> Color:</p>
+                    <div>Negro
+                        <input type="radio" name="color" value="negro">
+                    </div>
+                    <div>Rojo
+                        <input type="radio" name="color" value="rojo">
+                    </div>
+                    <div>Azul
+                        <input type="radio" name="color" value="azul">
+                    </div>
+                </div>
+                <p>Método de pago:</p>
+                <select name="metodo" id="pago">
+                    <option value="contado">Contado</option>
+                    <option value="cuotas">Cuotas</option>
+                </select><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+        </article>
+    </h2>
+    <footer class="footer">
+        <ul>
+            <li>Teléfono: +1-234-5678</li>
+            <li>Calle 1 e/2 y 3, Nº456</li>
+            <li>Lunes a Viernes</li>
+        </ul>
+    </footer>
+</body>
+</html>
